@@ -1,13 +1,24 @@
 body {
-  background-color: #1c2a2e;
+  background-image: url("imgg/laptop2.jpg");
   margin: 0;
   background-repeat: repeat;
-  background-size: 30%;
-  background-position: fixed;
+  background-size: 100%;
+/*   background-position: fixed; */
 }
 
 div {
-  background-color: #201919
+  background-image: url("imgg/laptop2.jpg");
+  margin: 0;
+/*   background-repeat: repeat; */
+/*   background-size: 100%; */
+/*   background-position: fixed; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .imgeg {
